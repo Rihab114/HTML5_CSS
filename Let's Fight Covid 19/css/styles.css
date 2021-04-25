@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&display=swap');
+*{
+    font-family: 'DM sans';
+}
+body{
+    margin: 0 auto;
+}
+/*tete de page*/
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: #0594B4;
+}
+
+header.header img{
+    width: 100px;
+}
+section.top-page {
+    background:url('../images/bg1.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 60px;
+
+}
+/*page de bienvenue (landing page)*/
+.landing-page{
+    padding: 20px 50px;
+}
+.big-title{
+    color: whitesmoke;
+    font-size: 80px;
+}
+.explication{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Crimson Pro';
+    font-weight: 100;
+}
+.scroll-down{
+    color: red;
+    text-decoration: none;
+    position: absolute;
+}
+/*menu de navigation*/
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    margin-left: 200px;
+    font-size: x-large;
+
+
+}
+
+nav.nav li a{
+color: whitesmoke;
+text-decoration: none;
+}
+
+/*Advices*/
+/*Advice1*/
+.advice1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+
+}
+.stayHome-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A2D6FE;
+    
+}
+.stayHome-item img{
+    width: 200px;
+    margin: 100px;
+}
+.stayHome-item p{
+    margin: 10px;
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+}
+.stayHome-item h1{
+    color: #001220;
+    font-size: 40px;
+}
+.WashHands-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A2D6FE;
+}
+.WashHands-item img{
+    width: 200px;
+    margin: 100px;
+}
+.WashHands-item p{
+    margin: 40px;
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+}
+.WashHands-item h1{
+    color: #001220;
+    font-size: 40px;
+    
+}
+/*Advice2*/
+.advice2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.CheckTemp-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D6E4E5;
+}
+.CheckTemp-item img{
+    width: 200px;
+    margin: 100px;
+}
+.CheckTemp-item p{
+    /*margin: 0px;*/
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+    margin-top: 10px;
+}
+.CheckTemp-item h1{
+    color: #001220;
+    font-size: 40px;
+    margin: 60px;
+}
+
+.StayAlone-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   background-color: #D6E4E5;
+}
+.StayAlone-item img{
+    width: 200px;
+    margin: 100px;
+}
+.StayAlone-item p{
+    margin: 10px;
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+    margin-top: 50px;
+}
+.StayAlone-item h1{
+    color: #001220;
+    font-size: 40px;
+    margin: 60px;
+}
+/*Advice3*/
+.advice3{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: #FFECEB;
+}
+.WatchAsymp-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFECEB;
+}
+.WatchAsymp-item img{
+    width: 200px;
+    margin: 100px;}
+
+.WatchAsymp-item p{
+    margin: 60px;
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+}
+.WatchAsymp-item h1{
+    color: #001220;
+    font-size: 40px;
+}
+.SocialDistancing-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFECEB;
+}
+.SocialDistancing-item img{
+    width: 200px;
+    margin: 100px;}
+
+.SocialDistancing-item p{
+    margin: 10px;
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+}
+.SocialDistancing-item h1{
+    color: #001220;
+    font-size: 40px;
+}
+/*Advice4*/
+.advice4{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.CallDoctor-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebbbaa /*#4a8f8d*/;
+}
+.CallDoctor-item img{
+    width: 200px;
+    margin: 100px;
+}
+
+.CallDoctor-item p{
+    margin: 60px;
+    font-family: 'Crimson Pro';
+    font-size: x-large;
+}
+.CallDoctor-item h1{
+    color: #001220;
+    font-size: 40px;
+}
