@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&display=swap');
 *{
-    font-family: 'DM sans';
+    font-family: 'Helvetica';
 }
 body{
     margin: 0 auto;
@@ -11,7 +11,10 @@ body{
 header.header{
     display: flex;
     align-items: center;
-    background-color: #0594B4;
+    background-color: #006678;
+    top:0;
+    left :0;
+
 }
 
 header.header img{
@@ -20,7 +23,7 @@ header.header img{
 section.top-page {
     background:url('../images/bg1.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     padding: 60px;
 
 }
@@ -30,7 +33,7 @@ section.top-page {
 }
 .big-title{
     color: whitesmoke;
-    font-size: 80px;
+    font-size: 60px;
 }
 .explication{
     color: whitesmoke;
@@ -64,8 +67,9 @@ text-decoration: none;
 /*Advice1*/
 .advice1{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin: 50px;
+    width: :fit-content;
 
 }
 .stayHome-item {
@@ -76,13 +80,15 @@ text-decoration: none;
     
 }
 .stayHome-item img{
-    width: 200px;
+    width: 180px;
     margin: 100px;
+    top: 0;
+    left:0;
 }
 .stayHome-item p{
     margin: 10px;
     font-family: 'Crimson Pro';
-    font-size: x-large;
+    font-size: xx-large;
 }
 .stayHome-item h1{
     color: #001220;
@@ -99,7 +105,7 @@ text-decoration: none;
     margin: 100px;
 }
 .WashHands-item p{
-    margin: 40px;
+    margin: 20px;
     font-family: 'Crimson Pro';
     font-size: x-large;
 }
@@ -245,3 +251,62 @@ address {
     border-bottom: 1px ridge;
     min-height: 100px;
   }
+  #services .services {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#services .service-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+#services .service-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#services .service-item {
+	flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/img-1.png);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#services .service-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #006678 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#services .service-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#services .service-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#services .service-item p {
+	color: white;
+	text-align: left;
+}
