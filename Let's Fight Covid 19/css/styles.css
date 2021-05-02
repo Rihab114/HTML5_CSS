@@ -261,6 +261,8 @@ address {
 #services .service-top {
 	max-width: 500px;
 	margin: 0 auto;
+    top: 0;
+    align-items: center;
 }
 #services .service-bottom {
 	display: flex;
@@ -309,4 +311,9 @@ address {
 #services .service-item p {
 	color: white;
 	text-align: left;
+}
+h1{
+    color :#006678;
+    top : 0;
+    font-family: 'Arima Madurai', cursive;
 }
