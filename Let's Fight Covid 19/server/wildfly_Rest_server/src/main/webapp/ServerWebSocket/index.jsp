@@ -98,7 +98,7 @@
                    <div id="chat" class="chat"></div>
                    <div>
                    <input type="text" name="msg" id="msg" placeholder="Enter message here"/>
-                       <button style ="border-radius: 5px; color: rgb(0, 217, 255); background-color: aliceblue; border-color: aliceblue;",onclick="return sendMsg();">Enter</button>
+                       <button onclick="return sendMsg();">Enter</button>
                    </div>
                </div>
 

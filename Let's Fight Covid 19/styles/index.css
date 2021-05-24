@@ -354,7 +354,29 @@ address {
 	text-align: left;
 }
 h1{
-    color :#006678;
+    color :#191cc9;
     top : 0;
     font-family: 'Arima Madurai', cursive;
 }
+.chat {
+    width: 80%;
+    height: 200px;
+    border: 2px solid rgb(0, 217, 255);
+    overflow-y: scroll;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#msg {
+    width: 80%;
+    border: 2px solid rgb(0, 217, 255);
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+h1 {text-align: center;}

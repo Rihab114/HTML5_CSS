@@ -5,18 +5,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.d</groupId>
-  <artifactId>j</artifactId>
+  <artifactId>server</artifactId>
   <version>1.3</version>
   <packaging>war</packaging>
 
-  <name>j Maven Webapp</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
     <version.server.bom>23.0.2.Final</version.server.bom>
   </properties>
   <dependencyManagement>
@@ -64,7 +62,7 @@
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+       
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
